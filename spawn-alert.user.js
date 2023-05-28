@@ -5,8 +5,8 @@
 // @description  Show spawn timer, sharing another players. Work In Progress https://discord.gg/4nPjXjVf4t
 // @author       @jmatg1
 // @match        https://florr.io/*
-// @updateURL    https://github.com/jmatg1/florr-io-spawn-alert/raw/main/spawn-alert.js
-// @downloadURL  https://github.com/jmatg1/florr-io-spawn-alert/raw/main/spawn-alert.js
+// @updateURL    https://github.com/jmatg1/florr-io-spawn-alert/raw/main/spawn-alert.user.js
+// @downloadURL  https://github.com/jmatg1/florr-io-spawn-alert/raw/main/spawn-alert.user.js
 // @grant        none
 // @require      https://openuserjs.org/src/libs/sizzle/GM_config.js
 // ==/UserScript==
