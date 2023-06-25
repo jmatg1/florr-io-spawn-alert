@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Ultra Mobs Alert
 // @namespace    https://github.com/jmatg1/florr-io-spawn-alert
-// @version      1.4
+// @version      1.5
 // @description  Show spawn timer, sharing another players. Work In Progress https://discord.gg/4nPjXjVf4t
 // @author       @jmatg1
 // @match        https://florr.io/*
