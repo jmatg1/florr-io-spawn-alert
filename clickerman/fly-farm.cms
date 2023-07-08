@@ -1,0 +1,51 @@
+﻿$topToDownLEFT = 0
+$topToDownRIGHT = 0
+$leftToRigth = 0
+$downToTop = 0
+WHILE(TRUE)
+   GETSCREEN
+   IF_PIXEL_IN (768,72, 840,135, 15659253,15527924, 15922934)
+      IF($topToDownLEFT == 0)
+         KEYUP(#W)
+         KEYDOWN(#S)
+         $topToDownLEFT = 1
+         LOGWRITE("$topToDown")
+      END_IF
+   END_IF
+   IF_PIXEL_IN (804,1018,809,1025,3368550)
+      IF_PIXEL_IN (1451,567,1468,587,3368550)
+      ELSE
+         IF($leftToRigth == 0)
+            $topToDownLEFT = 0
+            KEYUP(#S)
+            KEYDOWN(#D)
+            $leftToRigth = 1
+            LOGWRITE("$leftToRigth")
+         END_IF
+      END_IF
+   END_IF
+   IF_PIXEL_IN (1217,511,1310,590,6547455,6415098)
+      IF_PIXEL_IN (1451,567,1468,587,3368550)
+         IF($downToTop == 0)
+            $topToDownLEFT = 0
+            $leftToRigth = 0
+            KEYUP(#D)
+            KEYDOWN(#W)
+            $downToTop = 1
+            LOGWRITE("$downToTop")
+         END_IF
+      END_IF
+   END_IF
+   IF_PIXEL_IN (1243,76, 1307,136, 15659253,15527924, 15922934)
+      IF($topToDownRIGHT == 0)
+         $topToDownLEFT = 0
+         $leftToRigth = 0
+         $downToTop = 0
+         KEYUP(#W)
+         KEYDOWN(#S)
+         $topToDownRIGHT = 1
+         LOGWRITE("$topToDownRIGHT")
+      END_IF
+   END_IF
+   
+END_CYC

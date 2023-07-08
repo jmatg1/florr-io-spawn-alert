@@ -1,0 +1,31 @@
+﻿$x = 0
+$y = 0
+
+GETSCREEN   
+IF_PIXEL_IN(0,0, $_xmax,$_ymax, 4049151,6268863)
+   MOVE(956,559)  // 4049151
+   WAITMS(3000)
+ELSE
+   IF_PIXEL_IN(900, 505, 1033, 638, 255, 1522416, 3481279)
+      MOVE($_return1 + $x, $_return2 + $y)
+      WAITMS(10)
+      LOGWRITE ("1")      
+   ELSE           
+      IF_PIXEL_IN(630, 304, 1490, 821, 255,1522416, 3481279)
+         MOVE($_return1 + $x, $_return2 + $y)
+         WAITMS(10)    
+         LOGWRITE ("2")
+      ELSE             
+         IF_PIXEL_IN(16, 231, 1910, 931, 255,1522416, 3481279)
+            MOVE($_return1 + $x, $_return2 + $y)
+            WAITMS(10)     
+            LOGWRITE ("3")
+         ELSE
+   				   MOVE(RND(731, 1307), RND(346, 776)) 
+   				   //MOVE(960,555)
+             WAITMS(3000)   
+             LOGWRITE ("R")
+         END_IF
+      END_IF 
+   END_IF  
+END_IF
