@@ -6,3 +6,6 @@ Open this [link](https://github.com/jmatg1/florr-io-spawn-alert/raw/main/spawn-a
 Click `Install` and you're done.
 
 Go to florr.io and have fun!
+
+# Features
+![alt text](https://github.com/jmatg1/florr-io-spawn-alert/blob/main/image.png?raw=true)
