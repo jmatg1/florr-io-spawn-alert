@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Anti AFK
 // @namespace    http://tampermonkey.net/
-// @version      0.0.0
+// @version      0.0.1
 // @description  Anti AFK
 // @author       @jmatg1
 // @match        https://florr.io/*
@@ -9,7 +9,7 @@
 // @grant        none
 // ==/UserScript==
 
-fetch('https://raw.githubusercontent.com/jmatg1/florr-io-spawn-alert/main/anti-afk.js')
+fetch('https://raw.githubusercontent.com/jmatg1/florr-io-spawn-alert/main/anti-afk.js?v='+Math.random())
   .then((response) => {
     return response.text();
   })
