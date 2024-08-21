@@ -6,6 +6,8 @@
 // @author       @jmatg1
 // @match        https://florr.io/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=florr.io
+// @updateURL    https://github.com/jmatg1/florr-io-spawn-alert/raw/main/anti-afk.js
+// @downloadURL  https://github.com/jmatg1/florr-io-spawn-alert/raw/main/anti-afk.js
 // @grant        none
 // ==/UserScript==
 
