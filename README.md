@@ -13,6 +13,8 @@ Improved anti ban: There is no interface, making the script harder to detect.
 # Do not use with other scripts.  
 # Use another account to check for a ban.
 
+# Installation Ultra mobs alert
+([link](https://github.com/jmatg1/florr-io-spawn-alert/raw/main/spawn-alert.user.js))
 
 # Discord server
 [Support script](https://discord.gg/9bpBkcADhA)  
